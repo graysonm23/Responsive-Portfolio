@@ -62,8 +62,8 @@ a:active {
   text-align: center;
   font-family: "Georgia", Times, "Times New Roman", serif;
   color: white;
-  padding: 30px;
-  font-size: 25px;
+  padding: 3%;
+  font-size: 156%;
   font-weight: bold;
 }
 
@@ -72,8 +72,8 @@ a:active {
   margin: auto;
   text-align: center;
   font-family: "Georgia", Times, "Times New Roman", serif;
-  padding: 30px;
-  font-size: 25px;
+  padding: 3%;
+  font-size: 156%;
   font-weight: bold;
   color: #d3d3d3;
 }
@@ -91,16 +91,16 @@ a:active {
   width: 960px;
   margin: auto;
   height: 580px;
-  padding-bottom: 50px;
+  padding-bottom: 5%;
 }
 
 .title {
   font-family: "Georgia", Times, "Times New Roman", serif;
   color: #4aaaa5;
-  font-size: 25px;
+  font-size: 156%;
   font-weight: bold;
   margin: auto;
-  padding: 30px;
+  padding: 3%;
 }
 
 #myImages {
@@ -173,5 +173,19 @@ figcaption {
   .mainBody,
   header {
     width: 70%;
+    height: auto;
+  }
+  img {
+    float: left;
+    width: 30%;
+    height: auto;
+  }
+  #myName {
+    margin: 0 auto;
+  }
+  #myNav {
+    font-size: 140%;
+    float: left;
+    margin: 0 auto;
   }
 }
