@@ -81,7 +81,7 @@ a:active {
 #main {
   background-image: url("../images/email-pattern.png");
   width: 100%;
-  height: 80%;
+  min-height: 200%;
   padding-top: 20px;
 }
 
@@ -90,7 +90,7 @@ a:active {
   background-color: white;
   width: 960px;
   margin: auto;
-  height: 580px;
+  min-height: 800px;
   padding-bottom: 5%;
 }
 
@@ -123,7 +123,7 @@ figcaption {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 1%;
   border-radius: 30px;
 }
 /*^^^ styling images on portfolio.html ^^^*/
@@ -153,6 +153,10 @@ figcaption {
   padding-bottom: 10px;
 }
 
+p {
+  padding-left: 29%;
+}
+
 /* MEDIA QUERIES STARTING HERE */
 
 @media only screen and (max-width: 640px) {
@@ -173,19 +177,24 @@ figcaption {
   .mainBody,
   header {
     width: 70%;
-    height: auto;
   }
   img {
-    float: left;
-    width: 30%;
-    height: auto;
   }
   #myName {
     margin: 0 auto;
   }
   #myNav {
+    display: block;
     font-size: 140%;
     float: left;
     margin: 0 auto;
+  }
+  p {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .title {
+    text-align: center;
   }
 }
