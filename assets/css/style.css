@@ -171,9 +171,6 @@ p {
     width: 100%;
   }
 
-  #myName {
-    /* margin: 0 auto; */
-  }
   #myNav {
     display: block;
     font-size: 110%;
@@ -205,10 +202,5 @@ p {
   .mainBody,
   header {
     width: 100%;
-  }
-  #myNav {
-  }
-  #myName {
-    /* font-size: 100%; */
   }
 }
