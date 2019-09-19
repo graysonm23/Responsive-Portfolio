@@ -9,40 +9,21 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <script type="text/javascript">
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-      window.onclick = function(event) {
-        if (!event.target.matches(".dropbtn")) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains("show")) {
-              openDropdown.classList.remove("show");
-            }
-          }
-        }
-      };
-    </script>
     <header>
-      <nav style="width: 960px; margin: auto; padding-top: 20px;">
+      <nav id="navWrapper">
         <div id="myName">
           Grayson McMurry
         </div>
         <div id="myNav">
           <!--id tag used because the content is unique-->
-          <button onclick="myFunction()" class="dropbtn">MENU</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-          </div>
+          <a href="index.html">About</a> |
+          <a href="portfolio.html">Portfolio</a> |
+          <a href="contact.html">Contact</a>
         </div>
       </nav>
       <div class="clear"></div>
       <hr style="margin: 0px;" />
+      <!--line in html styled-->
     </header>
     <div class="clear"></div>
     <section id="main">
